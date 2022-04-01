@@ -15,11 +15,14 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-// init service
+// init services
 
 const projectFirestore = firebase.firestore();
 const projectAuth = firebase.auth();
 
-export { projectFirestore, projectAuth };
+// timestamp
+const timestamp = firebase.firestore.Timestamp;
+
+export { projectFirestore, projectAuth, timestamp };
 // in2
 // 对authentication的解释

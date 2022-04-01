@@ -30,6 +30,13 @@ Why use cleanup function?
 do not render components until we've checked with firebase if a user is correctly logged in
 (AuthContext.js)
 
+## n5
+
+if we don't use a ref --> infinite loop in useEffect
+\_query is an array and is "different" on every function call
+
+(useCollection.js)
+
 ## onAuthStateChanged()
 
 和 firebase 交互
