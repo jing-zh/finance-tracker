@@ -9,11 +9,10 @@
 
 
 ## Description
-The project is a website that can be used to keep track of spending.
+Money Tracker is an app that allows users to track their expenses
 
 
 
-## Technologies and tools used in this project
-* Javascript
+## Built with
 * React
 * Firebase
